@@ -31,3 +31,14 @@
 
 7. Firewall
  -     
+
+
+
+8. Email
+    - It has now been a year and 3 months.
+    - I really wanted mail@tanvibhakta.com (what's the point in having a domain and a website if you can't subtly show it off everytime someone wants to contact you?) and since at this point all my DNS management was on Digital Ocean I just went with teh flow.
+    - added Zoho MX records. 
+    - Added an SPF record to prevent source-forgery attacks.  
+    - configured gmail as a client to accept email from Zoho at all times (Settings -> Accounts and Imports -> add a new account)
+   - And we're good! Zoho has an email client but I didn't want to use two different ones. And I still havn't got thunderbird because I am a very lazy person who is always occupied with something /else/. 
+
